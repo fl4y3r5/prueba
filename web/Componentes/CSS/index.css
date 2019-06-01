@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-may-2019, 16:55:54
+    Author     : Virtual01
+*/
+
+header{
+    background-color: #005a8f;
+    color: white;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+nav {
+    color: #000;
+    background-color: transparent;
+    width: 100%;
+    
+}
+nav ul a {
+    /*-webkit-transition: background-color .3s;*/
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #000;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+#registro{
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    
+}
